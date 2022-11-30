@@ -26,7 +26,7 @@ public class Dictionary {
 	 */
 	public void scanFile() {
 		try {
-			File dictionaryDefinitions = new File("C:\\Users\\jcfar\\eclipse-workspace\\Assignment 5.1_HashMap_JCF\\Dictionary Text.txt"); 
+			File dictionaryDefinitions = new File("Dictionary Text.txt"); 
 			scan = new Scanner(dictionaryDefinitions);
 		}
 		catch(FileNotFoundException e) {
